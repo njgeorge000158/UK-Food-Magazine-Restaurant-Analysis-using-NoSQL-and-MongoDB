@@ -1,7 +1,7 @@
-This folder contains the file, establishments.json, which is the input file for the IPython notebook, NoSQLSetup.ipynb.
+This folder contains the file, establishments.json, which is the input file for the IPython notebook, mongodb_setup.ipynb.
 
 ----
 
 ## Copyright
 
-N. James George © 2023. All Rights Reserved.
+Nicholas J. George © 2023. All Rights Reserved.
