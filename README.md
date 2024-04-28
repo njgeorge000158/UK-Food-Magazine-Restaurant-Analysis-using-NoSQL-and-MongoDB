@@ -13,7 +13,9 @@ For the analysis, I use my knowledge of Python, PyMongo, and MongoDB to answer s
 
 <img width="1105" alt="food1" src="https://github.com/njgeorge000158/UK-Food-Magazine-Restaurant-Analysis-using-NoSQL-and-MongoDB/assets/137228821/8422cc1b-40a4-47a6-bff5-db6c54ee7997">
 
-3. Which establishments in London have a high rating value greater than or equal to 4 (1-5)?
+2. Which establishments in London have a high rating value greater than or equal to 4 (1-5)?
+<img width="530" alt="Screenshot 2024-04-27 at 5 46 12 PM" src="https://github.com/njgeorge000158/UK-Food-Magazine-Restaurant-Analysis-using-NoSQL-and-MongoDB/assets/137228821/092dc46f-c512-413d-8174-71858d1100f4"><img width="611" alt="Screenshot 2024-04-27 at 5 46 22 PM" src="https://github.com/njgeorge000158/UK-Food-Magazine-Restaurant-Analysis-using-NoSQL-and-MongoDB/assets/137228821/64b919a8-a5b8-4073-8d1b-e5bfaef2499a">
+
 <img width="1107" alt="food2" src="https://github.com/njgeorge000158/UK-Food-Magazine-Restaurant-Analysis-using-NoSQL-and-MongoDB/assets/137228821/31e7221f-1e0a-4443-a1b4-3cbd240f7a67">
 
 4. What are the top 5 establishments with a rating value of 5, sorted by best hygiene score, nearest to the new restaurant added, "Penang Flavours?
