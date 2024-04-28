@@ -35,27 +35,23 @@ https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/
 
 ----
 
-The IPython notebooks, NoSQLSetup.ipynb and NoSQLAnalysis.ipynb, require the following Python scripts with them in the same folder:
+The IPython notebooks, mongodb_setup.ipynb and restaurant_analysis.ipynb, require the following Python scripts with them in the same folder:
 
-NoSQLSetupSubRoutines.py
+logx_constants.py
 
-NoSQLAnalysisFunctions.py
+logx.py
 
-PyConstants.py
+mongodbx.py
 
-PyFunctions.py
+pandasx.py
 
-PyLogConstants.py
+restaurant_analysisx.py
 
-PyLogFunctions.py
+timex.py
 
-PyLogSubRoutines.py
+If the folders, logs and omages, are not present, an IPython notebook will create them.  The folder, resources, holds the input file for the IPython Notebook, mongodb_setup.ipynb; the folder, logs, contains log files from testing the IPython Notebooks; and the folder, images has the PNG image and html files of the IPython Notebooks' tables and plots.
 
-PySubroutines.py
-
-If the folders, Resources, Logs, and Images are not present, an IPython notebook will create them.  The Resources folder holds the input file for the IPython Notebook, NoSQLSetup.ipynb; the Logs folder contains debug and log files from testing the IPython Notebooks; and the Images folder has the PNG image files of the IPython Notebooks' tables and plots.
-
-To place the IPython notebook in log mode, debug mode, or image mode set the parameter for the appropriate subroutine in coding cell #2 to True. In debug mode, the program displays the debug information and writes it to a debug file in the Logs folder; the same is true in log mode for log information sent to a log file. If the program is in log mode but not debug mode, it displays no debug information, but writes that information to the log file. If the program is in image mode, it writes all DataFrames, hvplot maps, and matplotlib plots to png files in the Images folder.
+To place the IPython notebook in log mode or image mode set the parameter for the appropriate subroutine in coding cell #2 to True. In log mode, it writes information to the log file in the folder, logs. If the program is in image mode, it writes all DataFrames, hvplot maps, and matplotlib plots to png files in the folder, images.
 
 ----
 
@@ -65,7 +61,7 @@ To place the IPython notebook in log mode, debug mode, or image mode set the par
 
 #### Source code
 
-NoSQLSetup.ipynb, NoSQLAnalysis.ipynb
+mongodb_setup.ipynb, restaurant_analysis.ipynb, logx_constants.py, logx.py, mongodbx.py, pandasx.py, restaurant_analysisx.py, timex.py
 
 #### Input files
 
@@ -93,71 +89,57 @@ Jupyter Notebook, Matplotlib, MongoDB, Numpy, Pandas, PyMongo, Python 3.11.4
 
 #### main branch 
 
-|&rarr; [./NoSQLAnalysis.ipynb](./NoSQLAnalysis.ipynb)
-
-|&rarr; [./NoSQLAnalysisFunctions.py](./NoSQLAnalysisFunctions.py)
-
-|&rarr; [./NoSQLSetup.ipynb](./NoSQLSetup.ipynb)
-
-|&rarr; [./NoSQLSetUpSubRoutines.py](./NoSQLSetUpSubRoutines.py)
-
-|&rarr; [./PyConstants.py](./PyConstants.py)
-
-|&rarr; [./PyFunctions.py](./PyFunctions.py)
-
-|&rarr; [./PyLogConstants.py](./PyLogConstants.py)
-
-|&rarr; [./PyLogFunctions.py](./PyLogFunctions.py)
-
-|&rarr; [./PyLogSubRoutines.py](./PyLogSubRoutines.py)
-
-|&rarr; [./PySubRoutines.py](./PySubRoutines.py)
+|&rarr; [./mongodb_setup.ipynb](./mongodb_setup.ipynb)
 
 |&rarr; [./README.TECHNICAL.md](./README.TECHNICAL.md)
 
 |&rarr; [./README.md](./README.md)
 
-|&rarr; [./Table-Of-Contents-UFMRAUM.md](./Table-Of-Contents-UFMRAUM.md)
+|&rarr; [./restaurant_analysis.ipynb](./restaurant_analysis.ipynb)
 
-|&rarr; [./Images/](./Images/)
+|&rarr; [./restaurant_analysisx.py](./restaurant_analysisx.py)
 
-  &emsp; |&rarr; [./Images/NoSQLAnalysisFigure211WorstHygieneEstablishments.png](./Images/NoSQLAnalysisFigure211WorstHygieneEstablishments.png)
+|&rarr; [./table-of-contents.md](./table-of-contents.md)
+
+|&rarr; [./images/](./images/)
+
+  &emsp; |&rarr; [./images/restaurant_analysisFigure211WorstHygieneEstablishments.html](./images/restaurant_analysisFigure211WorstHygieneEstablishments.html)
+
+  &emsp; |&rarr; [./images/restaurant_analysisFigure212WorstHygieneEstablishmentsCloseUp.html](./images/restaurant_analysisFigure212WorstHygieneEstablishmentsCloseUp.html)
   
-  &emsp; |&rarr; [./Images/NoSQLAnalysisFigure212WorstHygieneEstablishmentsCloseUp.png](./Images/NoSQLAnalysisFigure212WorstHygieneEstablishmentsCloseUp.png)
+  &emsp; |&rarr; [./images/restaurant_analysisFigure221HighRatingValueLondon.html](./images/restaurant_analysisFigure221HighRatingValueLondon.html)
   
-  &emsp; |&rarr; [./Images/NoSQLAnalysisFigure221HighRatingValueLondon.png](./Images/NoSQLAnalysisFigure221HighRatingValueLondon.png)
+  &emsp; |&rarr; [./images/restaurant_analysisFigure222HighRatingValueLondonCloseUp.html](./images/restaurant_analysisFigure222HighRatingValueLondonCloseUp.html)
   
-  &emsp; |&rarr; [./Images/NoSQLAnalysisFigure222HighRatingValueLondonCloseUp.png](./Images/NoSQLAnalysisFigure222HighRatingValueLondonCloseUp.png)
+  &emsp; |&rarr; [./images/restaurant_analysisFigure231HighestRatingBestHygiene.html](./images/restaurant_analysisFigure231HighestRatingBestHygiene.html)
 
-  &emsp; |&rarr; [./Images/NoSQLAnalysisFigure232HighestRatingBestHygieneCloseUp.png](./Images/NoSQLAnalysisFigure232HighestRatingBestHygieneCloseUp.png)
+  &emsp; |&rarr; [./images/NoSQLAnalysisFigure232HighestRatingBestHygieneCloseUp.png](./images/NoSQLAnalysisFigure232HighestRatingBestHygieneCloseUp.png)
 
-  &emsp; |&rarr; [./Images/NoSQLAnalysisTable21WorstHygieneEstablishments.png](./Images/NoSQLAnalysisTable21WorstHygieneEstablishments.png)
+  &emsp; |&rarr; [./images/restaurant_analysisFigure232HighestRatingBestHygieneCloseUp.html](./images/restaurant_analysisFigure232HighestRatingBestHygieneCloseUp.html)
 
-  &emsp; |&rarr; [./Images/NoSQLAnalysisTable22HighRatingValueLondonEstablishments.png](./Images/NoSQLAnalysisTable22HighRatingValueLondonEstablishments.png)
+  &emsp; |&rarr; [./images/restaurant_analysisTable21WorstHygieneEstablishments.png](./images/restaurant_analysisTable21WorstHygieneEstablishments.png)
 
-  &emsp; |&rarr; [./Images/NoSQLAnalysisTable23HighestRatingBestHygieneEstablishments.png](./Images/NoSQLAnalysisTable23HighestRatingBestHygieneEstablishments.png)
+  &emsp; |&rarr; [./images/restaurant_analysisTable22HighRatingValueLondonEstablishments.png](./images/restaurant_analysisTable22HighRatingValueLondonEstablishments.png)
 
-  &emsp; |&rarr; [./Images/NoSQLAnalysisTable24LocalAuthoritieswithNumberofEstablishmentswithHighestHygieneScore.png](./Images/NoSQLAnalysisTable24LocalAuthoritieswithNumberofEstablishmentswithHighestHygieneScore.png)
+  &emsp; |&rarr; [./images/restaurant_analysisTable23HighestRatingBestHygieneEstablishments.png](./images/restaurant_analysisTable23HighestRatingBestHygieneEstablishments.png)
 
-  &emsp; |&rarr; [./Images/README.md](./Images/README.md)
+  &emsp; |&rarr; [./images/restaurant_analysisTable24LocalAuthoritieswithNumberofEstablishmentswithHighestHygieneScore.png](./images/restaurant_analysisTable24LocalAuthoritieswithNumberofEstablishmentswithHighestHygieneScore.png)
 
-|&rarr; [./Logs/](./Logs/)
+  &emsp; |&rarr; [./images/README.md](./images/README.md)
 
-  &emsp; |&rarr; [./Logs/20231001NoSQLAnalysisDebug.txt](./Logs/20231001NoSQLAnalysisDebug.txt)
+|&rarr; [./logs/](./logs/)
 
-  &emsp; |&rarr; [./Logs/20231001NoSQLAnalysisLog.txt](./Logs/20231001NoSQLAnalysisLog.txt)
+  &emsp; |&rarr; [./logs/20240427mongodb_setup_log.txt](./logs/20240427mongodb_setup_log.txt)
 
-  &emsp; |&rarr; [./Logs/20231001NoSQLSetupDebug.txt](./Logs/20231001NoSQLSetupDebug.txt)
+  &emsp; |&rarr; [./logs/20240427restaurant_analysis_log.txt](./logs/20240427restaurant_analysis_log.txt)
 
-  &emsp; |&rarr; [./Logs/20231001NoSQLSetupLog.txt](./Logs/20231001NoSQLSetupLog.txt)
+  &emsp; |&rarr; [./logs/README.md](./logs/README.md)
 
-  &emsp; |&rarr; [./Logs/README.md](./Logs/README.md)
+|&rarr; [./resources/](./resources/)
 
-|&rarr; [./Resources/](./Resources/)
+  &emsp; |&rarr; [./resources/establishments.json](./resources/establishments.json)
 
-  &emsp; |&rarr; [./Resources/establishments.json](./Resources/establishments.json)
-
-  &emsp; |&rarr; [./Resources/README.md](./Resources/README.md)
+  &emsp; |&rarr; [./resources/README.md](./resources/README.md)
 
 ----
 
@@ -187,4 +169,4 @@ Jupyter Notebook, Matplotlib, MongoDB, Numpy, Pandas, PyMongo, Python 3.11.4
 
 ### Copyright
 
-N. James George © 2023. All Rights Reserved.
+Nicholas J. George © 2023. All Rights Reserved.
