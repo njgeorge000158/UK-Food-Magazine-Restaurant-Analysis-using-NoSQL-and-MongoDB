@@ -1,0 +1,93 @@
+
+Timepoint: 2024/04/27 17:27:43
+Program execution begins...
+
+
+
+
+MongoClient(host=['localhost:27017'], document_class=dict, tz_aware=False, connect=True)
+
+
+
+Database(MongoClient(host=['localhost:27017'], document_class=dict, tz_aware=False, connect=True), 'uk_food')
+
+
+
+Collection(Database(MongoClient(host=['localhost:27017'], document_class=dict, tz_aware=False, connect=True), 'uk_food'), 'establishments')
+
+
+Timepoint: 2024/04/27 17:27:44
+[1mHere is a List of the current MongoDB Databases:
+[0m['admin', 'atlanta', 'boston', 'chicago', 'config', 'epa', 'fruits_db', 'local', 'met', 'offense_codes', 'petsitly_marketing', 'predictive_map', 'san_francisco', 'uk_food', 'washington_dc']
+
+
+Timepoint: 2024/04/27 17:27:44
+[1m
+The MongoDB Database, 'uk_food', is in the MongoDB Databases.[0m
+
+
+Timepoint: 2024/04/27 17:27:44
+[1mHere are the current collections in the MongoDB database, uk_food:
+[0m['establishments']
+
+
+Timepoint: 2024/04/27 17:27:44
+[1m
+The collection, 'establishments', is in the MongoDB database, 'uk_food'.[0m
+
+
+Timepoint: 2024/04/27 17:27:44
+[1mThere are 39,779 documents in the Collection, establishments.[0m
+
+
+Timepoint: 2024/04/27 17:27:44
+[1mThere is 1 document for the restaurant, Penang Flavors, in the Collection, establishments.[0m
+
+
+Timepoint: 2024/04/27 17:27:44
+[1mIn the Penang Flavours's document, the 'BusinessTypeID' is of type, <class 'int'>, and has a value of 1.[0m
+
+
+Timepoint: 2024/04/27 17:27:44
+[1mThere are 994 documents with 'Dover' as their local authority name.[0m
+
+
+Timepoint: 2024/04/27 17:27:44
+[1mAfter the deletion, there are now 0 documents with 'Dover' as their local authority name.[0m
+
+
+Timepoint: 2024/04/27 17:27:44
+[1mAfter the deletion, there are now 38,786 documents in the Collection, establishments.[0m
+
+
+Timepoint: 2024/04/27 17:27:46
+['0', 'Awaiting Inspection', 'AwaitingInspection', 'AwaitingPublication', 'Exempt', 'Pass']
+
+
+Timepoint: 2024/04/27 17:27:47
+[1mThere are 0 documents in the collection, establishments, where the 'latitude' field is NOT data type, 'double'.[0m
+
+
+Timepoint: 2024/04/27 17:27:47
+[1mThe data type for the 'latitude' field of a random document is <class 'float'>.[0m
+
+
+Timepoint: 2024/04/27 17:27:48
+[1mThere are 0 documents in the collection, establishments, where the 'longitude' field is NOT data type, 'double'.[0m
+
+
+Timepoint: 2024/04/27 17:27:48
+[1mThe data type for the 'longitude' field of a random document is <class 'float'>.[0m
+
+
+Timepoint: 2024/04/27 17:27:48
+[1mThere are 4,157 documents in the collection, establishments, where the 'RatingValue' field is NOT data type, 'int'.[0m
+
+
+Timepoint: 2024/04/27 17:27:48
+[1mThe data type for the 'RatingValue' field of a random document is <class 'int'>.[0m
+
+
+Timepoint: 2024/04/27 17:27:48
+[1mThe current values for the field, 'RatingValue', for all documents in the collection, establishments, is [None, 1, 2, 3, 4, 5].[0m
+
