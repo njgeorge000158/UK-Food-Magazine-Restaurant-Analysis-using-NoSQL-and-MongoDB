@@ -1,12 +1,12 @@
-# UK Food Magazine Restaurant Analysis using MongoDB
+# UK-Food-Magazine-Restaurant-Analysis-using-NoSQL-and-MongoDB
 
 ----
 
-## Table of Contents (NoSQLSetup.ipynb)
+## Table of Contents (mongodb_setup.ipynb)
 
 ----
 
-# <br><br>  **Section 1: Database and Jupyter Notebook Set Up**
+# <br><br>  **Section 1: Database Connection**
 > ## <br> **1.1: MongoDB Client**
 > ## <br> **1.2: MongoDB Database**
 > ## <br> **1.3: MongoDB Collection**
@@ -39,11 +39,11 @@
 
 ----
 
-## Table of Contents (NoSQLAnalysis.ipynb)
+## Table of Contents (restaurant_analysis.ipynb)
 
 ----
 
-# <br><br> **Section 1: Database and Jupyter Notebook Set Up**
+# <br><br> **Section 1: Database Connection**
 > ## <br> **1.1: MongoDB Client**
 > ## <br> **1.2: MongoDB Database Confirmation**
 > ## <br> **1.3: MongoDB Database**
@@ -86,3 +86,9 @@
 >> ### **Highest Hygiene Establishments Data Set**
 >> ### **Number of Rows in Highest Hygiene Establishments Data Set**
 >> ### **Display Highest Hygiene Establishments**
+
+----
+
+## Copyright
+
+Nicholas J. George © 2023. All Rights Reserved.
