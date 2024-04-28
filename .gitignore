@@ -6,10 +6,8 @@ __pycache__/
 # C extensions
 *.so
 
-logx_constants.py
 logx.py
 mongodbx.py
-pandasx_constants.py
 pandasx.py
 timex.py
 
