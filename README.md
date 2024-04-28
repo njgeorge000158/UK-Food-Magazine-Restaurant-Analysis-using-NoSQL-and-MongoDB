@@ -1,5 +1,4 @@
-
-![72907](https://github.com/njgeorge000158/nosql-challenge/assets/137228821/1d0c380f-f729-49fc-b7b2-7c25c02375a3)
+![food](https://github.com/njgeorge000158/UK-Food-Magazine-Restaurant-Analysis-using-NoSQL-and-MongoDB/assets/137228821/7c0c003a-96f5-4252-bdc0-b6b1a20e08c1)
 
 # Eat Safe, Love
 
@@ -10,16 +9,16 @@ Due to a request from the magazine's editors, I make some modifications to the d
 For the analysis, I use my knowledge of Python, PyMongo, and MongoDB to answer specific questions posed by the management and staff of Eat Safe, Love.  Here are the questions and their query results.
 
 1. Which establishments have a hygiene score equal to 20 (the worst possible rating)?
-<img width="1105" alt="NoSQLQuery1_1" src="https://github.com/njgeorge000158/nosql-challenge/assets/137228821/2f17fa6b-5c2b-475e-9d37-fe5cee7d2473">
+<img width="1105" alt="food1" src="https://github.com/njgeorge000158/UK-Food-Magazine-Restaurant-Analysis-using-NoSQL-and-MongoDB/assets/137228821/8422cc1b-40a4-47a6-bff5-db6c54ee7997">
 
 2. Which establishments in London have a high rating value greater than or equal to 4 (1-5)?
-<img width="1107" alt="NoSQLQuery2_1" src="https://github.com/njgeorge000158/nosql-challenge/assets/137228821/c4c154d3-7985-40ac-bd29-07afa43e0e8b">
+<img width="1107" alt="food2" src="https://github.com/njgeorge000158/UK-Food-Magazine-Restaurant-Analysis-using-NoSQL-and-MongoDB/assets/137228821/31e7221f-1e0a-4443-a1b4-3cbd240f7a67">
 
 3. What are the top 5 establishments with a rating value of 5, sorted by best hygiene score, nearest to the new restaurant added, "Penang Flavours?
-<img width="1106" alt="NoSQLQuery3_1" src="https://github.com/njgeorge000158/nosql-challenge/assets/137228821/40dcf991-fc52-488c-bf7a-17dde0bac8d5">
+<img width="1106" alt="food3" src="https://github.com/njgeorge000158/UK-Food-Magazine-Restaurant-Analysis-using-NoSQL-and-MongoDB/assets/137228821/82cbe99a-3be0-4750-baff-7547d5b42f63">
 
 4. How many establishments in each Local Authority area have a hygiene score of 0 (the best possible rating)? Sort the number of establishments from highest to lowest, and print out the top ten local authority areas.
-<img width="1107" alt="NoSQLQuery4" src="https://github.com/njgeorge000158/nosql-challenge/assets/137228821/e5df9c89-b73a-48a6-856c-3b2ba3c09f5b">
+<img width="1107" alt="food4" src="https://github.com/njgeorge000158/UK-Food-Magazine-Restaurant-Analysis-using-NoSQL-and-MongoDB/assets/137228821/425a135c-9aea-45c8-8b1b-373ed8a7fd39">
 
 From the analysis, there are a number of insightful conclusions.  The locations with the worst hygiene scores are on or near the coastline outside of London. There is a concentration of highly rated restaurants inside the city of London proper. Greenwich is the location with establishments scoring highest in both value and hygiene; for hygiene alone, Thanet is the best location.
 
@@ -27,4 +26,4 @@ From the analysis, there are a number of insightful conclusions.  The locations 
 
 ### Copyright
 
-N. James George © 2023. All Rights Reserved.
+Nicholas J. George © 2023. All Rights Reserved.
