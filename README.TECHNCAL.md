@@ -37,8 +37,6 @@ https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/
 
 The IPython notebooks, mongodb_setup.ipynb and restaurant_analysis.ipynb, require the following Python scripts with them in the same folder:
 
-logx_constants.py
-
 logx.py
 
 mongodbx.py
@@ -61,7 +59,7 @@ To place the IPython notebook in log mode or image mode set the parameter for th
 
 #### Source code
 
-mongodb_setup.ipynb, restaurant_analysis.ipynb, logx_constants.py, logx.py, mongodbx.py, pandasx.py, restaurant_analysisx.py, timex.py
+mongodb_setup.ipynb, restaurant_analysis.ipynb, logx.py, mongodbx.py, pandasx.py, restaurant_analysisx.py, timex.py
 
 #### Input files
 
