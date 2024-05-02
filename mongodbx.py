@@ -183,7 +183,7 @@ def delete_records_then_insert_dictionary \
     
             pymongo_collection.delete_many(query_dictionary)
     
-        else:
+        elif documents_count_integer == 1:
     
             pymongo_collection.delete_one(query_dictionary)
     
