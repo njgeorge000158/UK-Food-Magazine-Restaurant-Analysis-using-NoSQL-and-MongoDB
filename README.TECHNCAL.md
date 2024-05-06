@@ -12,19 +12,19 @@ In addition to those modules, the IPython notebook needs the following to execut
 
 Here are the requisite Terminal commands for the installation of these peripheral modules:
 
-python3 -m pip install holoviews
+pip3 install -U holoviews
 
-python3 -m pip install hvplot
+pip3 install -U hvplot
 
-python3 -m pip install geoviews
+pip3 install -U geoviews
 
-python3 -m pip install geopy
+pip3 install -U geopy
 
-python3 -m pip install aspose-words
+pip3 install -U aspose-words
 
-python3 -m pip install dataframe-image
+pip3 install -U dataframe-image
 
-python3 -m pip install pymongo
+pip3 install -U pymongo
 
 https://www.mongodb.com/docs/v6.0/tutorial/install-mongodb-on-os-x/ \
 https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/
@@ -47,9 +47,9 @@ restaurant_analysisx.py
 
 timex.py
 
-If the folders, logs and omages, are not present, an IPython notebook will create them.  The folder, resources, holds the input file for the IPython Notebook, mongodb_setup.ipynb; the folder, logs, contains log files from testing the IPython Notebooks; and the folder, images has the PNG image and html files of the IPython Notebooks' tables and plots.
+If the folders, logs and images, are not present, an IPython notebook will create them.  The folder, resources, holds the input file for the IPython Notebooks; the folder, logs, contains log files from testing the IPython Notebooks; and the folder, images has the PNG image and html files of the IPython Notebooks' tables and plots.
 
-To place the IPython notebook in log mode or image mode set the parameter for the appropriate subroutine in coding cell #2 to True. In log mode, it writes information to the log file in the folder, logs. If the program is in image mode, it writes all DataFrames, hvplot maps, and matplotlib plots to png files in the folder, images.
+To place the IPython notebook in log mode or image mode set the parameter for the appropriate subroutine in coding cell #2 to True. In log mode, the notebook writes information to the log file in the folder, logs. If the program is in Image Mode, it writes all DataFrames, hvplot maps, and matplotlib plots to png files in the folder, images.
 
 ----
 
@@ -75,7 +75,7 @@ n/a
 
 #### Software
 
-Jupyter Notebook, Matplotlib, MongoDB, Numpy, Pandas, PyMongo, Python 3.11.4
+Jupyter Notebook, Matplotlib, MongoDB, Numpy, Pandas, PyMongo, Python 3.11.5
 
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
